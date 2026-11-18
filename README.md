@@ -1,4 +1,4 @@
-# Cosmos Voyager
+# Candle in the Dark
 
 A little app for actually watching Carl Sagan's *Cosmos: A Personal Voyage*. It keeps your spot, breaks every episode into sections you can watch in 10–20 minutes, lets you take notes as you go, and points you at the parts that'll blow your mind.
 

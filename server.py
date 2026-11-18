@@ -1,4 +1,4 @@
-"""Cosmos Voyager - a local player for Carl Sagan's Cosmos: A Personal Voyage (1980).
+"""Candle in the Dark - a local player for Carl Sagan's Cosmos: A Personal Voyage (1980).
 
 Stdlib only. Run:  python server.py   then open http://localhost:8765
 """
@@ -155,7 +155,7 @@ class Downloader:
         ep = EPISODES[num]
         part = video_path(num) + ".part"
         have = os.path.getsize(part) if os.path.exists(part) else 0
-        req = urllib.request.Request(remote_url(ep), headers={"User-Agent": "cosmos-voyager/1.0"})
+        req = urllib.request.Request(remote_url(ep), headers={"User-Agent": "candle-in-the-dark/1.0"})
         if have:
             req.add_header("Range", f"bytes={have}-")
         with urllib.request.urlopen(req, timeout=60) as r:
@@ -208,7 +208,7 @@ class Handler(BaseHTTPRequestHandler):
     def parse_request(self):
         ok = super().parse_request()
         if ok and not is_private(self.client_address[0]):
-            self.send_error(403, "Cosmos Voyager only answers devices on your home network")
+            self.send_error(403, "Candle in the Dark only answers devices on your home network")
             return False
         return ok
 
@@ -381,7 +381,7 @@ if __name__ == "__main__":
     if "--download-all" in sys.argv:
         for n in EPISODES:
             DL.enqueue(n)
-    print(f"Cosmos Voyager running at http://localhost:{PORT}")
+    print(f"Candle in the Dark running at http://localhost:{PORT}")
     if HOST != "127.0.0.1" and lan_ip():
         print(f"On your phone (same Wi-Fi): http://{lan_ip()}:{PORT}")
     ThreadingHTTPServer((HOST, PORT), Handler).serve_forever()
