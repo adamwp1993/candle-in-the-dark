@@ -67,7 +67,7 @@
 
   <!-- Notes -->
   <section id="view-notes" class="view">
-    <div class="section-head"><div><h2>My notes</h2><p class="sub">Every note you've written, by episode. Click a time to jump there.</p></div></div>
+    <div class="section-head"><div><h2>My notes</h2><p class="sub">Your answers to the questions and every note you've written, by episode. Click a time to jump there.</p></div></div>
     <div id="allNotes"></div>
   </section>
 
@@ -87,6 +87,7 @@
             <p id="clipDoneText"></p>
             <div class="row">
               <button class="btn" id="clipNext">Next part: <span id="clipNextName"></span></button>
+              <button class="btn ghost" id="clipReflect">Reflect on this section</button>
               <button class="btn ghost" id="clipReplay">Replay</button>
             </div>
           </div>
@@ -95,6 +96,10 @@
         <div class="current-seg" id="currentSeg"></div>
       </div>
       <aside class="player-side">
+        <div class="panel" id="qPanel">
+          <div class="panel-head"><h3>Think about it</h3><span class="muted small" id="qFor"></span></div>
+          <div id="qList" class="qs"></div>
+        </div>
         <div class="panel">
           <div class="panel-head"><h3>Notes</h3><span class="muted small keyhint">press N</span></div>
           <form id="noteForm" class="note-form">

@@ -68,7 +68,7 @@ def load_user():
         with open(USER_FILE, encoding="utf-8") as f:
             return json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
-        return {"progress": {}, "notes": {}, "seen": {}}
+        return {"progress": {}, "notes": {}, "seen": {}, "answers": {}}
 
 
 def save_user(u):
@@ -81,7 +81,7 @@ def save_user(u):
 def mutate_user(fn):
     with _user_lock:
         u = load_user()
-        for k in ("progress", "notes", "seen"):
+        for k in ("progress", "notes", "seen", "answers"):
             u.setdefault(k, {})
         result = fn(u)
         save_user(u)
@@ -342,6 +342,20 @@ class Handler(BaseHTTPRequestHandler):
                     u["seen"].pop(key, None)
             mutate_user(f)
             return self.send_json({"ok": True})
+        m = re.match(r"^/api/answers/([\w-]+)$", path)
+        if m:
+            seg, q, text = m.group(1), str(int(body["q"])), str(body.get("text", ""))
+
+            def f(u):
+                a = u["answers"].setdefault(seg, {})
+                if text.strip():
+                    a[q] = {"text": text, "updated": time.time()}
+                else:
+                    a.pop(q, None)
+                if not a:
+                    u["answers"].pop(seg, None)
+            mutate_user(f)
+            return self.send_json({"ok": True})
         m = re.match(r"^/api/notes/(\d+)$", path)
         if m:
             key = m.group(1)
@@ -384,4 +398,13 @@ if __name__ == "__main__":
     print(f"Candle in the Dark running at http://localhost:{PORT}")
     if HOST != "127.0.0.1" and lan_ip():
         print(f"On your phone (same Wi-Fi): http://{lan_ip()}:{PORT}")
-    ThreadingHTTPServer((HOST, PORT), Handler).serve_forever()
+    class Server(ThreadingHTTPServer):
+        daemon_threads = True
+
+        def handle_error(self, request, client_address):
+            import sys
+            if isinstance(sys.exc_info()[1], (ConnectionError, TimeoutError)):
+                return  # browsers drop video connections all the time when you seek
+            super().handle_error(request, client_address)
+
+    Server((HOST, PORT), Handler).serve_forever()

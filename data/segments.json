@@ -7,33 +7,58 @@
     "start": 0,
     "title": "The Ship of the Imagination",
     "star": true,
-    "desc": "\"We're made of star stuff.\" Sagan sets out from the edge of the known universe, past colliding galaxies, quasars and Andromeda, to our own Milky Way, pulsars and all."
+    "desc": "\"We're made of star stuff.\" Sagan sets out from the edge of the known universe, past colliding galaxies, quasars and Andromeda, to our own Milky Way, pulsars and all.",
+    "questions": [
+     "Sagan says we're \"a way for the cosmos to know itself.\" What does that mean to you, and does it change how you think about your own life?",
+     "He promises to be bold in speculation but careful to separate it from fact. Where in your own life do you blur the two?",
+     "Seeing Earth as one tiny planet among billions: does that make human life feel smaller or more precious? Why?"
+    ]
    },
    {
     "id": "e01-2",
     "start": 1087,
     "title": "Stellar nurseries, then the long fall home",
-    "desc": "An alien world reshaped by its inhabitants, the Orion Nebula where stars are born, then inward past Saturn, Jupiter and Mars to a blue world, third from the sun."
+    "desc": "An alien world reshaped by its inhabitants, the Orion Nebula where stars are born, then inward past Saturn, Jupiter and Mars to a blue world, third from the sun.",
+    "questions": [
+     "Sagan imagines an alien world that its inhabitants have completely re-engineered. What would an outside observer conclude about us from how we've reshaped Earth?",
+     "Stars are born and die in the same galaxy at the same time. What other systems (cities, families, ideas) work that way?",
+     "Why do you think Sagan ends this long journey by coming home rather than going further out?"
+    ]
    },
    {
     "id": "e01-3",
     "start": 1767.9,
     "title": "Eratosthenes measures the Earth with a stick",
     "star": true,
-    "desc": "Sticks, shadows and a well at Syene: a librarian in 3rd-century BC Egypt works out the size of the planet to within a few percent. Plus the Phoenicians who sailed around Africa."
+    "desc": "Sticks, shadows and a well at Syene: a librarian in 3rd-century BC Egypt works out the size of the planet to within a few percent. Plus the Phoenicians who sailed around Africa.",
+    "questions": [
+     "Eratosthenes measured the planet with sticks, shadows and a hired walker. What everyday observation have you ignored that might be hiding something big?",
+     "Someone else might have dismissed the report from Syene as an error. When is it right to trust an odd report, and when is it right to doubt it?",
+     "What would it take for you to actually test an idea yourself instead of taking someone's word for it?"
+    ]
    },
    {
     "id": "e01-4",
     "start": 2365,
     "title": "The Library of Alexandria",
-    "desc": "A walk through a reconstruction of the ancient world's greatest library: Euclid, Hipparchus, Hypatia, and the lost book of Aristarchus. What we lost, and how its rediscovery lit the Renaissance."
+    "desc": "A walk through a reconstruction of the ancient world's greatest library: Euclid, Hipparchus, Hypatia, and the lost book of Aristarchus. What we lost, and how its rediscovery lit the Renaissance.",
+    "questions": [
+     "The Library held nearly everything known, and still fell. What made it vulnerable, and is anything like that true of our knowledge today?",
+     "Ptolemy was brilliant and still \"dead wrong\" for 1,500 years. How do you tell the difference between being smart and being right?",
+     "If you could rescue one lost book from history, which would you pick and why?"
+    ]
    },
    {
     "id": "e01-5",
     "start": 3168.9,
     "title": "The Cosmic Calendar",
     "star": true,
-    "desc": "All 15 billion years squeezed into one year. Every king, war and invention in the history books fits into the last ten seconds of December 31st."
+    "desc": "All 15 billion years squeezed into one year. Every king, war and invention in the history books fits into the last ten seconds of December 31st.",
+    "questions": [
+     "All of recorded history fits in the last few seconds of the Cosmic Calendar. How does that perspective change what you worry about?",
+     "Sagan says what happens in the first second of the next cosmic year depends on us. What do you think that first second looks like?",
+     "Does being so recent make humanity feel insignificant to you, or lucky?"
+    ]
    }
   ],
   "2": [
@@ -42,32 +67,57 @@
     "start": 0,
     "title": "The Heike crab: a samurai face shaped by fishermen",
     "star": true,
-    "desc": "A 12th-century sea battle, a drowned child emperor, and crabs whose shells bear a warrior's scowl. A perfect, eerie lesson in artificial selection."
+    "desc": "A 12th-century sea battle, a drowned child emperor, and crabs whose shells bear a warrior's scowl. A perfect, eerie lesson in artificial selection.",
+    "questions": [
+     "Fishermen shaped the Heike crab without ever meaning to. What are we selecting for today without realizing it (in animals, technology, or ourselves)?",
+     "Why is a story like this one more convincing than a textbook definition of selection?",
+     "Which domesticated plant or animal in your life would surprise you most if you saw its wild ancestor?"
+    ]
    },
    {
     "id": "e02-2",
     "start": 813,
     "title": "Natural selection and the first molecules of life",
-    "desc": "Trilobites, Darwin and Wallace, the watchmaker argument, then the cosmic calendar of life: the organic soup, the first self-copying molecule, and DNA."
+    "desc": "Trilobites, Darwin and Wallace, the watchmaker argument, then the cosmic calendar of life: the organic soup, the first self-copying molecule, and DNA.",
+    "questions": [
+     "The watchmaker argument felt obvious to people for centuries. Why do you think design is such an intuitive explanation?",
+     "\"The secrets of evolution are time and death.\" How do you feel about death being part of what made us possible?",
+     "What's the most convincing piece of evidence for evolution to you, and why that one?"
+    ]
    },
    {
     "id": "e02-3",
     "start": 1531.7,
     "title": "Four billion years in forty seconds",
     "star": true,
-    "desc": "From a soap-bubble cell to fish, amphibians, dinosaurs, shrews and us, ending in the famous morphing march of evolution. Then: why we and the trees are cousins."
+    "desc": "From a soap-bubble cell to fish, amphibians, dinosaurs, shrews and us, ending in the famous morphing march of evolution. Then: why we and the trees are cousins.",
+    "questions": [
+     "You share ancestors with the oak tree outside. Does that change how you feel about other living things?",
+     "Many branches of the human family went extinct. Why do you think ours survived, and was it skill or luck?",
+     "If you replayed the tape of life, do you think something like us would evolve again?"
+    ]
    },
    {
     "id": "e02-4",
     "start": 2241.5,
     "title": "Voyage into a living cell",
-    "desc": "Sagan pricks his finger and we dive into a white blood cell, through a nuclear pore, to watch DNA unzip and copy itself, proofreading enzyme and all."
+    "desc": "Sagan pricks his finger and we dive into a white blood cell, through a nuclear pore, to watch DNA unzip and copy itself, proofreading enzyme and all.",
+    "questions": [
+     "Each cell contains machinery as complex as a galaxy has stars. Why do you think the very small gets less wonder than the very large?",
+     "Mutations are mostly harmful yet drive all of evolution. Where else do mistakes turn out to be essential?",
+     "Sagan calls designing new kinds of humans \"a disquieting and awesome prospect.\" Where would you draw the line?"
+    ]
    },
    {
     "id": "e02-5",
     "start": 2852.2,
     "title": "Making life's building blocks, and the floaters of Jupiter",
-    "desc": "Sparking primordial gases in a Cornell lab produces the stuff of life. Then Sagan imagines city-sized living balloons, sinkers and hunters drifting in a Jupiter-like sky."
+    "desc": "Sparking primordial gases in a Cornell lab produces the stuff of life. Then Sagan imagines city-sized living balloons, sinkers and hunters drifting in a Jupiter-like sky.",
+    "questions": [
+     "Lightning plus simple gases makes the building blocks of life in a flask. Does that make life feel more ordinary or more remarkable?",
+     "Floaters, sinkers and hunters are speculation grounded in physics. What makes a speculation responsible rather than just fantasy?",
+     "Why would finding even a single alien microbe change biology so much?"
+    ]
    }
   ],
   "3": [
@@ -75,32 +125,57 @@
     "id": "e03-1",
     "start": 0,
     "title": "Astrology on trial",
-    "desc": "Two newspapers, same day, contradictory horoscopes. Twins with opposite fates. And the obstetrician who had more gravitational pull on baby Carl than Mars did."
+    "desc": "Two newspapers, same day, contradictory horoscopes. Twins with opposite fates. And the obstetrician who had more gravitational pull on baby Carl than Mars did.",
+    "questions": [
+     "Why do you think astrology survives when it fails every test? What need does it meet?",
+     "Sagan says the desire to be connected to the cosmos is real, just misdirected. In what true ways are you connected to it?",
+     "Is there a belief you hold mostly because it's comforting? How would you test it?"
+    ]
    },
    {
     "id": "e03-2",
     "start": 665.8,
     "title": "Pictures in the stars and the sun temples of the Anasazi",
-    "desc": "The Big Dipper as a plow, a casserole, a bureaucrat and a hippo with a crocodile on its back. Then ancient solstice markers that catch the sun on one day a year."
+    "desc": "The Big Dipper as a plow, a casserole, a bureaucrat and a hippo with a crocodile on its back. Then ancient solstice markers that catch the sun on one day a year.",
+    "questions": [
+     "Every culture saw different pictures in the same stars. What does that say about how we see patterns in general?",
+     "If we named constellations today, what would we put up there, and what would that say about us?",
+     "The Anasazi could predict seasons but not a changing climate. What are we good at predicting, and what are we missing?"
+    ]
    },
    {
     "id": "e03-3",
     "start": 1221.5,
     "title": "Wandering planets: Ptolemy, Copernicus, and young Kepler",
-    "desc": "Why planets loop backward in the sky, the Earth-centered vs Sun-centered fight, and a lonely seminary boy who wanted to read the mind of God through geometry and the perfect solids."
+    "desc": "Why planets loop backward in the sky, the Earth-centered vs Sun-centered fight, and a lonely seminary boy who wanted to read the mind of God through geometry and the perfect solids.",
+    "questions": [
+     "The Earth-centered model worked well enough to last 1,500 years. Why is \"it works\" not the same as \"it's true\"?",
+     "Copernicus was mocked as an upstart. What idea today might look foolish now but be vindicated later?",
+     "Young Kepler wanted to read the mind of God through geometry. Is the search for beauty in nature a help or a trap for science?"
+    ]
    },
    {
     "id": "e03-4",
     "start": 2148.6,
     "title": "Kepler, Tycho Brahe, and the eight minutes of arc",
     "desc": "Exile, a gold-nosed Danish nobleman hoarding the best data on Earth, and the moment Kepler chooses an inconvenient eight-minute discrepancy over his beloved theory. Out come the laws of planetary motion.",
-    "star": true
+    "star": true,
+    "questions": [
+     "Kepler threw away years of work over eight minutes of arc. When have you had to let go of something you wanted to be true?",
+     "Tycho had the data and Kepler had the theory, and distrust nearly wasted both. Where do you see that problem today?",
+     "Would you have accepted the ellipse, or kept patching circles? Be honest."
+    ]
    },
    {
     "id": "e03-5",
     "start": 3002.2,
     "title": "War, witchcraft, and the harmony of the worlds",
-    "desc": "The Thirty Years' War, Kepler's mother tried as a witch, the first science fiction story, and why preferring hard truth to dear illusions is the heart of science."
+    "desc": "The Thirty Years' War, Kepler's mother tried as a witch, the first science fiction story, and why preferring hard truth to dear illusions is the heart of science.",
+    "questions": [
+     "Kepler did his best work in the middle of war, plague and his mother's witch trial. What does that say about where discovery comes from?",
+     "\"He preferred the hard truth to his dearest illusions.\" What's one illusion you'd find hardest to give up?",
+     "Kepler's dream of space travel helped get his mother accused of witchcraft. How do new ideas get punished in your world?"
+    ]
    }
   ],
   "4": [
@@ -109,26 +184,46 @@
     "start": 0,
     "title": "Tunguska, and comets as omens of doom",
     "desc": "In 1908 something flattened 2,000 square km of Siberian forest and left no crater. Sagan works the mystery, then tours centuries of comet panic, including 1910's comet pills.",
-    "star": true
+    "star": true,
+    "questions": [
+     "Sagan rules out antimatter, black holes and alien ships for Tunguska. How did he decide which explanation fit best?",
+     "A comet impact could look like a nuclear attack. How should we guard against misreading a natural event in a crisis?",
+     "People bought comet pills in 1910. What's today's version of comet pills?"
+    ]
    },
    {
     "id": "e04-2",
     "start": 889.2,
     "title": "Comets, craters, and the monks who saw the Moon explode",
     "desc": "How comets get captured and crash into worlds, and five Canterbury monks in 1178 who saw fire on the Moon, an account that laser-ranging and a young crater may confirm.",
-    "star": true
+    "star": true,
+    "questions": [
+     "The Canterbury monks recorded something strange even though it went against what everyone believed. Would you have written it down?",
+     "An 800-year-old eyewitness account and a laser bounced off the Moon support each other. What makes evidence from very different sources so convincing?",
+     "Earth's craters get erased, but the Moon's don't. What other histories get erased just because of where they happened?"
+    ]
    },
    {
     "id": "e04-3",
     "start": 1674,
     "title": "Velikovsky's Venus, and reading a planet from its light",
-    "desc": "\"Observation: you couldn't see a thing. Conclusion: dinosaurs.\" Sagan takes apart wild ideas about Venus and shows how a prism lets us read what distant worlds are made of."
+    "desc": "\"Observation: you couldn't see a thing. Conclusion: dinosaurs.\" Sagan takes apart wild ideas about Venus and shows how a prism lets us read what distant worlds are made of.",
+    "questions": [
+     "Sagan argues the real scandal wasn't Velikovsky being wrong, but scientists trying to suppress him. Do you agree?",
+     "\"Observation: you couldn't see a thing. Conclusion: dinosaurs.\" Where have you seen reasoning like that?",
+     "We can tell what a star is made of from its light alone. What does that make you feel about what's knowable?"
+    ]
    },
    {
     "id": "e04-4",
     "start": 2473.3,
     "title": "Into the hell of Venus, and a warning for Earth",
-    "desc": "Descend with the Soviet Venera landers into sulfuric acid clouds and 900°F crushing heat: a runaway greenhouse. Then erosion, the Sphinx, and what we are doing to our own climate."
+    "desc": "Descend with the Soviet Venera landers into sulfuric acid clouds and 900°F crushing heat: a runaway greenhouse. Then erosion, the Sphinx, and what we are doing to our own climate.",
+    "questions": [
+     "Venus is a planet much like Earth that went wrong. What does it take for people to treat a warning like that seriously?",
+     "Sagan asks what account we'd give a visitor of our stewardship of Earth. What would yours be?",
+     "Slow erosion and sudden catastrophe both shape the world. Which kind of change are people worse at noticing?"
+    ]
    }
   ],
   "5": [
@@ -137,31 +232,56 @@
     "start": 0,
     "title": "War of the Worlds and Lowell's canals",
     "desc": "H.G. Wells' Martians, Orson Welles' panic, and Percival Lowell's Arizona observatory where he saw a dying civilization's irrigation canals that weren't there.",
-    "star": true
+    "star": true,
+    "questions": [
+     "Lowell saw canals because he expected to see them. When has expectation shaped what you saw?",
+     "Why do you think the idea of Martians gripped people so hard for a century?",
+     "Lowell was wrong but inspired a generation. Can a wrong idea still do good?"
+    ]
    },
    {
     "id": "e05-2",
     "start": 876,
     "title": "Goddard's cherry-tree dream, and the real Mars",
-    "desc": "A boy in a cherry tree resolves to reach Mars and invents the liquid-fuel rocket. Then a flight over the real Mars: no canals, but giant volcanoes, river valleys and Valles Marineris."
+    "desc": "A boy in a cherry tree resolves to reach Mars and invents the liquid-fuel rocket. Then a flight over the real Mars: no canals, but giant volcanoes, river valleys and Valles Marineris.",
+    "questions": [
+     "A kid in a cherry tree decided to reach Mars, and it shaped his whole life. Have you had a moment like that?",
+     "From orbit, even Earth's cities look lifeless at low resolution. What does that say about how we search for life?",
+     "Goddard sifted every failed rocket for clues. How do you treat your own failures?"
+    ]
    },
    {
     "id": "e05-3",
     "start": 1838.5,
     "title": "Viking lands on Mars and looks for life",
-    "desc": "Choosing a landing site, the first pictures from the Martian surface, and the life-detection experiments that came back tantalizing, provocative and deeply ambiguous."
+    "desc": "Choosing a landing site, the first pictures from the Martian surface, and the life-detection experiments that came back tantalizing, provocative and deeply ambiguous.",
+    "questions": [
+     "Viking's life experiments were \"tantalizing and deeply ambiguous.\" How do you live with a question that has no clear answer?",
+     "Why does Sagan keep reminding us of Lowell during the Viking results?",
+     "If we did find life on Mars, how would you want the news to be handled?"
+    ]
    },
    {
     "id": "e05-4",
     "start": 2532,
     "title": "What life is made of, and a rover with laser eyes",
-    "desc": "Sagan stirs a vat of the chemicals that make a human and gets a boring mixture of atoms: the magic is in the arrangement. Plus why Mars needs a roving explorer."
+    "desc": "Sagan stirs a vat of the chemicals that make a human and gets a boring mixture of atoms: the magic is in the arrangement. Plus why Mars needs a roving explorer.",
+    "questions": [
+     "The chemicals in a human are worth a few dollars, but the arrangement is priceless. What does that say about what makes something valuable?",
+     "Sagan is skeptical of silicon-based life. Is it more exciting to you that life elsewhere might be like us, or totally different?",
+     "What would you want a Mars rover to go look at first?"
+    ]
    },
    {
     "id": "e05-5",
     "start": 2988.8,
     "title": "Wolf Vishniac, and the Martians will be us",
-    "desc": "A microbiologist who died searching for life in Antarctica's dry valleys. Then: should we terraform Mars? If we do, the Martians will be us."
+    "desc": "A microbiologist who died searching for life in Antarctica's dry valleys. Then: should we terraform Mars? If we do, the Martians will be us.",
+    "questions": [
+     "If Mars has life, Sagan says we should leave it alone. Do you agree, even if Mars could become a home for us?",
+     "\"The Martians will be us.\" How do you feel about humans becoming a multi-planet species?",
+     "Is it right to spend on Mars while there are unmet needs on Earth? Where do you land on that?"
+    ]
    }
   ],
   "6": [
@@ -169,32 +289,57 @@
     "id": "e06-1",
     "start": 0,
     "title": "Voyager sets out",
-    "desc": "A visit to Voyager mission control as the spacecraft reaches Jupiter, and the golden record it carries for anyone who might find it among the stars."
+    "desc": "A visit to Voyager mission control as the spacecraft reaches Jupiter, and the golden record it carries for anyone who might find it among the stars.",
+    "questions": [
+     "Voyager cost about a penny per world for every person on Earth. What is that kind of exploration worth?",
+     "If you had to pick one thing to put on the golden record, what would it be?",
+     "What do you think the Voyager record says about who we are, or wish we were?"
+    ]
    },
    {
     "id": "e06-2",
     "start": 696.9,
     "title": "The Dutch Republic: ships, maps and free minds",
-    "desc": "17th-century Holland as a spacefaring civilization of its day: voyages to the Spice Islands, secret charts, tolerance of heretics, and a refuge for free thinkers."
+    "desc": "17th-century Holland as a spacefaring civilization of its day: voyages to the Spice Islands, secret charts, tolerance of heretics, and a refuge for free thinkers.",
+    "questions": [
+     "The Dutch Republic thrived on trade and on tolerance. Why do you think free thought and exploration tend to go together?",
+     "Holland was a refuge for people censored elsewhere. Where are those refuges today?",
+     "The Dutch worried that greed threatened their soul. Is that worry still relevant?"
+    ]
    },
    {
     "id": "e06-3",
     "start": 1271.8,
     "title": "Christiaan Huygens imagines other worlds",
-    "desc": "Microscopes reveal the microbial world, telescopes reveal Titan, and Huygens dares to imagine the inhabitants of other planets and their many suns."
+    "desc": "Microscopes reveal the microbial world, telescopes reveal Titan, and Huygens dares to imagine the inhabitants of other planets and their many suns.",
+    "questions": [
+     "Huygens imagined aliens much like 17th-century Europeans. What assumptions about aliens do we make that will look quaint later?",
+     "The microscope and telescope opened two hidden worlds at once. Which would you rather have discovered?",
+     "Huygens was brilliant at many things. Is being a generalist still possible, or valuable, today?"
+    ]
    },
    {
     "id": "e06-4",
     "start": 1968.8,
     "title": "Voyager at Jupiter: Europa's cracks and Io's volcanoes",
     "desc": "Traveler's tales from the outer solar system: scientists arguing over Europa's strange surface in real time, and the discovery of the first active volcanoes beyond Earth.",
-    "star": true
+    "star": true,
+    "questions": [
+     "Watching scientists argue over Europa in real time, what surprises you about how science actually gets done?",
+     "Io's volcanoes weren't predicted by most people. What's the value of exploring without knowing what you'll find?",
+     "Sagan compares Voyager's discoveries to sailors' travelers' tales. What's the difference between a tale and data?"
+    ]
    },
    {
     "id": "e06-5",
     "start": 2797.1,
     "title": "Through Saturn's rings to Titan",
-    "desc": "Voyager's logbook, then a flight between the snowball moonlets of Saturn's rings and down toward Titan, where the building blocks of life may rain from the sky."
+    "desc": "Voyager's logbook, then a flight between the snowball moonlets of Saturn's rings and down toward Titan, where the building blocks of life may rain from the sky.",
+    "questions": [
+     "Saturn's rings are billions of tiny moons. Does knowing what something is made of make it more or less beautiful?",
+     "Titan may rain the building blocks of life. If it does, what would that tell us about how common life is?",
+     "We stayed home and sent robots. Is that exploration, or something less?"
+    ]
    }
   ],
   "7": [
@@ -202,38 +347,68 @@
     "id": "e07-1",
     "start": 0,
     "title": "A Brooklyn boy asks what the stars are",
-    "desc": "Sagan walks his childhood neighborhood, remembers the library book that told him stars are suns, then visits a Brooklyn classroom to talk planets and Ganymede with kids."
+    "desc": "Sagan walks his childhood neighborhood, remembers the library book that told him stars are suns, then visits a Brooklyn classroom to talk planets and Ganymede with kids.",
+    "questions": [
+     "Sagan's curiosity was sparked by a library book. What first made you curious about the universe?",
+     "\"Every one of us begins life with an open mind.\" What do you think closes it, and how do you keep it open?",
+     "If you could tell your eight-year-old self one fact about the cosmos, what would it be?"
+    ]
    },
    {
     "id": "e07-2",
     "start": 586,
     "title": "Campfires, myths, and the backbone of night",
-    "desc": "How early humans explained the lights overhead: campfires of other tribes, the Milky Way as the sky's spine, Hera's spilled milk, and the capricious gods."
+    "desc": "How early humans explained the lights overhead: campfires of other tribes, the Milky Way as the sky's spine, Hera's spilled milk, and the capricious gods.",
+    "questions": [
+     "Early humans explained the sky with what they knew: campfires, animals, gods. How do we still explain the unknown with the familiar?",
+     "Why do you think nearly every culture imagined the gods as unpredictable?",
+     "What's a myth you grew up with that you later found a natural explanation for?"
+    ]
    },
    {
     "id": "e07-3",
     "start": 1004,
     "title": "The Ionian awakening: the universe is knowable",
-    "desc": "Why science was born on the islands of the eastern Mediterranean: merchants, engineers, and Thales, who explained the world without gods, plus the Tunnel of Eupalinos."
+    "desc": "Why science was born on the islands of the eastern Mediterranean: merchants, engineers, and Thales, who explained the world without gods, plus the Tunnel of Eupalinos.",
+    "questions": [
+     "Science began at a crossroads of cultures. Why might mixing traditions make people ask better questions?",
+     "The Ionians decided the universe was knowable because it was ordered. Do you believe the universe is fully knowable?",
+     "Once you question one ritual, you start questioning others. Has that happened to you?"
+    ]
    },
    {
     "id": "e07-4",
     "start": 1531.0,
     "title": "Empedocles' water thief and Democritus' atoms",
     "desc": "A kitchen gadget proves air is something real. Then Democritus cuts an apple and reasons his way to atoms and empty space, 2,400 years early.",
-    "star": true
+    "star": true,
+    "questions": [
+     "A kitchen gadget hinted at air being a real substance. What everyday object might be hiding a deep truth?",
+     "Democritus reasoned his way to atoms with no instruments at all. How far can pure reasoning take you before you need experiment?",
+     "For Democritus, understanding and enjoyment were nearly the same. Is that true for you?"
+    ]
    },
    {
     "id": "e07-5",
     "start": 2065.4,
     "title": "Pythagoras, Plato, and the dangerous dodecahedron",
-    "desc": "Mathematical harmony, five perfect solids, a secret too dangerous for the public, and how the Pythagoreans and Plato steered science away from experiment for 2,000 years."
+    "desc": "Mathematical harmony, five perfect solids, a secret too dangerous for the public, and how the Pythagoreans and Plato steered science away from experiment for 2,000 years.",
+    "questions": [
+     "The Pythagoreans hid the square root of two because it broke their worldview. What uncomfortable facts get hidden today?",
+     "Sagan blames Plato and Aristotle for 2,000 years of distrust of experiment. Is that fair?",
+     "Should knowledge ever be kept from the public? Under what conditions, if any?"
+    ]
    },
    {
     "id": "e07-6",
     "start": 2640.0,
     "title": "Aristarchus, the distance to the stars, and other planets",
-    "desc": "The man who put the Sun at the center centuries before Copernicus, how to gauge the distance to Sirius with a brass plate, and a classroom demo of how to find hidden planets."
+    "desc": "The man who put the Sun at the center centuries before Copernicus, how to gauge the distance to Sirius with a brass plate, and a classroom demo of how to find hidden planets.",
+    "questions": [
+     "Aristarchus was right and was ignored for 1,800 years. Why do correct ideas sometimes lose?",
+     "\"We make our world significant by the courage of our questions.\" What's a question you've been afraid to ask?",
+     "Living in an unremarkable place in a vast universe: does that bother you or free you?"
+    ]
    }
   ],
   "8": [
@@ -241,26 +416,46 @@
     "id": "e08-1",
     "start": 0,
     "title": "Constellations through time",
-    "desc": "Every constellation is one frame in a cosmic movie. Sagan runs the sky forward and back a million years, watching the Big Dipper and Orion fall apart."
+    "desc": "Every constellation is one frame in a cosmic movie. Sagan runs the sky forward and back a million years, watching the Big Dipper and Orion fall apart.",
+    "questions": [
+     "Constellations look permanent only because our lives are short. What else looks permanent to you only because of your timescale?",
+     "When you look at old starlight, you're seeing the past. How does it feel that the sky is a history book?",
+     "Would you rather travel through space or through time, and why?"
+    ]
    },
    {
     "id": "e08-2",
     "start": 627.7,
     "title": "Einstein on a bicycle in Tuscany: riding a light beam",
     "desc": "A teenage Einstein wonders what you'd see riding a light wave. Then a scooter ride near light speed: the world squeezes, colors shift, and a twin comes home younger than his brother.",
-    "star": true
+    "star": true,
+    "questions": [
+     "Einstein got there by questioning something everyone took for granted. What assumption in your life might be worth questioning?",
+     "A twin comes home younger than his brother. Which part of relativity feels most impossible to you, and why accept it anyway?",
+     "Relativity sets limits on what we can do. How do you feel about the universe having rules that don't bend to our ambitions?"
+    ]
    },
    {
     "id": "e08-3",
     "start": 1528.8,
     "title": "Leonardo's flying machines, starships, and time travel",
-    "desc": "Leonardo was trapped in his century. Could we be too? Nuclear-pulse starships Orion and Daedalus, a 1g ride across the galaxy, and what we'd change if we could travel to the past."
+    "desc": "Leonardo was trapped in his century. Could we be too? Nuclear-pulse starships Orion and Daedalus, a 1g ride across the galaxy, and what we'd change if we could travel to the past.",
+    "questions": [
+     "Leonardo was trapped in an age that couldn't build his ideas. What ideas of ours might be waiting on a future age?",
+     "A starship trip could leave everyone you know long dead when you return. Would you go?",
+     "If you could change one moment in history, would you, knowing it might erase the present?"
+    ]
    },
    {
     "id": "e08-4",
     "start": 2544.5,
     "title": "Worlds forming, and the branch points of history",
-    "desc": "Watch a solar system condense from dust, imagine the planets of other stars, then rewind evolution: if history had been a little different, who would be here instead of us?"
+    "desc": "Watch a solar system condense from dust, imagine the planets of other stars, then rewind evolution: if history had been a little different, who would be here instead of us?",
+    "questions": [
+     "If evolution replayed slightly differently, someone else would be here. Does that make our existence feel fragile or lucky?",
+     "Sagan says we're at a branch point in history. What branch point do you think we're at right now?",
+     "Our solar system may be just one type among many. Does variety in the universe excite or unsettle you?"
+    ]
    }
   ],
   "9": [
@@ -269,33 +464,58 @@
     "start": 0,
     "title": "To make an apple pie, first invent the universe",
     "desc": "The famous line, then Sagan keeps cutting a slice of pie in half until he reaches atoms. Mirrors, infinity, the googol and the googolplex.",
-    "star": true
+    "star": true,
+    "questions": [
+     "\"To make an apple pie from scratch, you must first invent the universe.\" What everyday thing in your life has a cosmic backstory?",
+     "A googolplex can't even be written out in our universe. How do you think about numbers too big to imagine?",
+     "How far down can you keep cutting something before it stops being that thing? What does that say about identity?"
+    ]
    },
    {
     "id": "e09-2",
     "start": 638.4,
     "title": "Atoms, elements, and why the stars shine",
-    "desc": "The 92 natural elements, how protons and neutrons build each one, and the fusion of hydrogen into helium that lights every star, including a tour of our turbulent Sun."
+    "desc": "The 92 natural elements, how protons and neutrons build each one, and the fusion of hydrogen into helium that lights every star, including a tour of our turbulent Sun.",
+    "questions": [
+     "Everything you've ever seen is made of about 92 kinds of atoms. Is that simplicity beautiful or reductive?",
+     "Stars shine by turning hydrogen into helium. How does it feel that sunlight is the result of nuclear fusion?",
+     "Alchemists dreamed of making gold. Physics can, but it isn't worth it. What dreams come true in ways we didn't expect?"
+    ]
    },
    {
     "id": "e09-3",
     "start": 1488.1,
     "title": "How stars die, and the supernova the Anasazi saw",
     "desc": "Red giants, the Sun's distant death, supernovas forging the heavy elements, cosmic rays clicking in a Geiger counter in a cave, and a pictograph of the explosion of 1054.",
-    "star": true
+    "star": true,
+    "questions": [
+     "The Sun will one day swallow Earth. Does knowing the far future change how you think about the present?",
+     "The Anasazi may have painted a supernova a thousand years ago. What would you record for the future if you saw something unprecedented?",
+     "Cosmic rays from distant explosions may have caused mutations in your ancestors. How connected do you feel to events that far away?"
+    ]
    },
    {
     "id": "e09-4",
     "start": 2456.5,
     "title": "Neutron stars, black holes, and a gravity tea party",
     "desc": "A spoonful of neutron star would punch through the Earth. Sagan plays with gravity until tea floats, light bends back on itself, and a black hole might lead to elsewhere and elsewhen.",
-    "star": true
+    "star": true,
+    "questions": [
+     "A black hole might lead somewhere else entirely. How do you weigh beautiful speculation against what we can test?",
+     "Gravity can be so strong that light can't escape. What other forces have an absolute point of no return?",
+     "Which feels stranger to you: neutron stars, black holes, or curved space? Why?"
+    ]
    },
    {
     "id": "e09-5",
     "start": 3036.0,
     "title": "We are made of star stuff",
-    "desc": "Why the stars aren't remote from us at all: the atoms in us were forged in them. And the dawn you'd see from a planet inside a globular cluster."
+    "desc": "Why the stars aren't remote from us at all: the atoms in us were forged in them. And the dawn you'd see from a planet inside a globular cluster.",
+    "questions": [
+     "The atoms in your body were forged in stars. Does that change how you see yourself?",
+     "From a planet in a globular cluster, dawn would be thousands of suns rising. What's the most beautiful sky you've ever seen?",
+     "Sagan says our matter and form are set by the cosmos. Where does that leave free will?"
+    ]
    }
   ],
   "10": [
@@ -303,33 +523,58 @@
     "id": "e10-1",
     "start": 0,
     "title": "The birth of the universe and colliding galaxies",
-    "desc": "From the Big Bang to the first galaxies, then billions of years compressed into seconds as galaxies spin, collide and spill their stars into the void."
+    "desc": "From the Big Bang to the first galaxies, then billions of years compressed into seconds as galaxies spin, collide and spill their stars into the void.",
+    "questions": [
+     "Most cultures understand their own birth through myth. How does the Big Bang compare as a creation story?",
+     "Galaxies collide over hundreds of millions of years. What does it take to think on timescales that long?",
+     "Quasars were a mystery when this aired. How comfortable are you with science saying \"we don't know yet\"?"
+    ]
    },
    {
     "id": "e10-2",
     "start": 661.8,
     "title": "Doppler shifts and the janitor who found the expanding universe",
-    "desc": "A passing train's whistle explains red shift. Milton Humason, a mule driver turned Mount Wilson janitor, and Hubble discover the galaxies are rushing away."
+    "desc": "A passing train's whistle explains red shift. Milton Humason, a mule driver turned Mount Wilson janitor, and Hubble discover the galaxies are rushing away.",
+    "questions": [
+     "Humason went from mule driver to janitor to discovering the expanding universe. What does that say about who gets to do science?",
+     "A train whistle helped reveal the universe's history. What ordinary experience might explain something huge?",
+     "The galaxies are all moving away from us, yet we're not at the center. How does that work, and how does it make you feel?"
+    ]
    },
    {
     "id": "e10-3",
     "start": 1376.3,
     "title": "Flatland and the fourth dimension",
     "desc": "Sagan's legendary explanation: a flat creature visited by a 3D apple, a cube's shadow, the tesseract, and how our universe might be curved through a dimension we can't see.",
-    "star": true
+    "star": true,
+    "questions": [
+     "To a Flatlander, a 3D visitor appears from nowhere. What might we be missing because we can't perceive it?",
+     "We can't picture a fourth dimension but we can reason about it. How much should we trust ideas we can't visualize?",
+     "If our universe were curved, you could travel in a straight line and come home. What feels most mind-bending about that?"
+    ]
    },
    {
     "id": "e10-4",
     "start": 2103,
     "title": "The Hindu cosmos and the oscillating universe",
     "desc": "The only ancient religion whose timescales match modern cosmology: a day and night of Brahma, 8.64 billion years. Shiva's dance and an endlessly reborn universe.",
-    "star": true
+    "star": true,
+    "questions": [
+     "Hindu cosmology's timescales roughly match modern science, by accident. Why do you think that resonates with people?",
+     "\"If God always existed, why not save a step and say the universe always existed?\" How do you respond?",
+     "Would you prefer a universe that ends once, or one that cycles forever? Why?"
+    ]
    },
    {
     "id": "e10-5",
     "start": 3012.9,
     "title": "Listening with radio telescopes at the edge of forever",
-    "desc": "The Very Large Array and a universe revealed in radio and X-ray light, plus how mapping galaxies by the million showed a universe of bubbles."
+    "desc": "The Very Large Array and a universe revealed in radio and X-ray light, plus how mapping galaxies by the million showed a universe of bubbles.",
+    "questions": [
+     "Radio telescopes work with energies smaller than a snowflake hitting the ground. What does that say about patience in science?",
+     "Most of the universe is invisible to our eyes. How does knowing that change what \"seeing\" means?",
+     "We're poised \"at the edge of forever.\" What question about the universe do you most want answered in your lifetime?"
+    ]
    }
   ],
   "11": [
@@ -338,26 +583,46 @@
     "start": 0,
     "title": "A water world, and the songs of whales",
     "desc": "The aliens of Earth's oceans, then the great whales: 15-minute songs with the information of an epic poem, once heard across whole oceans until our ships drowned them out.",
-    "star": true
+    "star": true,
+    "questions": [
+     "Whale songs may hold as much information as an epic poem. Do you think whales have something like culture?",
+     "Our ships drowned out a conversation that had gone on for millions of years. What else might we be drowning out without noticing?",
+     "Why might it be easier for us to imagine aliens in space than to recognize intelligence in our own oceans?"
+    ]
    },
    {
     "id": "e11-2",
     "start": 1190.4,
     "title": "The library in every cell, and the library in your head",
-    "desc": "Each cell carries a thousand volumes of genetic instructions. Then the brain: reptile core, mammal emotions, a cortex holding 20 million books' worth, and one of Sagan's earliest memories."
+    "desc": "Each cell carries a thousand volumes of genetic instructions. Then the brain: reptile core, mammal emotions, a cortex holding 20 million books' worth, and one of Sagan's earliest memories.",
+    "questions": [
+     "Your genes hold a thousand volumes, your brain far more. Which matters more to who you are: what you inherited or what you learned?",
+     "The reptile brain handles aggression and ritual. Where do you see it running the show, in yourself or in society?",
+     "Sagan can still recall one of his earliest memories. What's yours, and why do you think it stuck?"
+    ]
    },
    {
     "id": "e11-3",
     "start": 2118.2,
     "title": "The city as brain, and what an astonishing thing a book is",
     "desc": "New York grows like a brain, keeping its old parts. Then Sagan's ode to books: a flat object made from a tree, through which an author speaks across millennia.",
-    "star": true
+    "star": true,
+    "questions": [
+     "Cities and brains both keep their old parts while adding new ones. What \"old wiring\" in your thinking still shapes you?",
+     "\"What an astonishing thing a book is.\" Which book has spoken to you most clearly across time?",
+     "Books let us talk to the dead. What do you want to leave behind that someone could read in a thousand years?"
+    ]
    },
    {
     "id": "e11-4",
     "start": 2967.0,
     "title": "A global brain, and the Voyager record",
-    "desc": "Ideas as the genes of culture, what alien brains might be like, and the golden record: a message in a bottle cast into the cosmic ocean."
+    "desc": "Ideas as the genes of culture, what alien brains might be like, and the golden record: a message in a bottle cast into the cosmic ocean.",
+    "questions": [
+     "Ideas reproduce and get selected like genes. Which ideas do you think are spreading fastest today, and are they the good ones?",
+     "The Voyager record is a message in a bottle. If you could add one sentence to it, what would it say?",
+     "Sagan imagined a global intelligence linking all brains on Earth. Did the internet become that? Is it a good one?"
+    ]
    }
   ],
   "12": [
@@ -365,27 +630,47 @@
     "id": "e12-1",
     "start": 0,
     "title": "UFOs and the Betty and Barney Hill abduction",
-    "desc": "Why haven't aliens visited? Sagan examines the most famous abduction story and its star map, and gives us \"extraordinary claims require extraordinary evidence.\""
+    "desc": "Why haven't aliens visited? Sagan examines the most famous abduction story and its star map, and gives us \"extraordinary claims require extraordinary evidence.\"",
+    "questions": [
+     "\"Extraordinary claims require extraordinary evidence.\" What's an extraordinary claim you've believed without that evidence?",
+     "Why are personal stories so persuasive even when they're weak evidence?",
+     "If aliens did visit, what kind of evidence would actually convince you?"
+    ]
    },
    {
     "id": "e12-2",
     "start": 594.8,
     "title": "Champollion cracks the hieroglyphics",
     "desc": "A boy sees hieroglyphs nobody can read and vows to decipher them. Decades later he walks into the temples of Egypt and reads walls that waited half a million nights for a reader.",
-    "star": true
+    "star": true,
+    "questions": [
+     "Champollion's childhood question became his life's work. What question would you devote years to answering?",
+     "Others assumed hieroglyphs were mystical symbols; Champollion treated them as language. How does the right assumption unlock a problem?",
+     "Decoding Egypt is practice for decoding aliens. What would be hardest about understanding a truly alien mind?"
+    ]
    },
    {
     "id": "e12-3",
     "start": 1672.2,
     "title": "How to talk to aliens, and the Drake equation",
     "desc": "Science as the universal language, the Arecibo radio dish, then Sagan works through the famous equation for how many civilizations might be out there.",
-    "star": true
+    "star": true,
+    "questions": [
+     "Sagan argues science and math are a universal language. Is there anything else every intelligent species would share?",
+     "In the Drake equation, the biggest unknown is how long civilizations last. What do you think decides that?",
+     "Are you optimistic or pessimistic about how many civilizations are out there? What drives your guess?"
+    ]
    },
    {
     "id": "e12-4",
     "start": 2572,
     "title": "The Encyclopaedia Galactica",
-    "desc": "What a first message might look like, why they might not have come, and leafing through a galactic encyclopedia of worlds, all the way to the entry for Earth."
+    "desc": "What a first message might look like, why they might not have come, and leafing through a galactic encyclopedia of worlds, all the way to the entry for Earth.",
+    "questions": [
+     "If there are so many civilizations, why no contact? Which answer to that puzzle do you find most convincing?",
+     "Searching for alien signals costs less than a weapons overrun. What does that say about our priorities?",
+     "If the Encyclopaedia Galactica had an entry for Earth today, what would it say?"
+    ]
    }
   ],
   "13": [
@@ -394,33 +679,59 @@
     "start": 0,
     "title": "The Tlingit meet La Pérouse, and a dream of a dead world",
     "desc": "\"Choose life.\" A peaceful 1786 first contact in Alaska, then Sagan dreams of returning to Earth and finding it silent. What would the galactic encyclopedia say about us?",
-    "star": true
+    "star": true,
+    "questions": [
+     "The Tlingit and La Pérouse chose peace; the conquistadors chose plunder. What decides which way a first contact goes?",
+     "Sagan dreams of returning to a silent Earth. What would you most regret us losing?",
+     "\"Choose life.\" What does that mean on the scale of a civilization, and on the scale of one person?"
+    ]
    },
    {
     "id": "e13-2",
     "start": 976.4,
     "title": "A blockbuster for every family",
-    "desc": "The reptile brain and the bomb: how the world built more than 10,000 megatons of nuclear weapons, what they would do, and how humanity has outgrown old evils before."
+    "desc": "The reptile brain and the bomb: how the world built more than 10,000 megatons of nuclear weapons, what they would do, and how humanity has outgrown old evils before.",
+    "questions": [
+     "Everyone calls the arms race madness, and every country has an excuse. How do intelligent people end up trapped in collective madness?",
+     "Slavery was with us for thousands of years and was mostly ended. What gives you hope that other old evils can end too?",
+     "Which part of human nature do you think will win out: the old reptile brain or the newer cortex?"
+    ]
    },
    {
     "id": "e13-3",
     "start": 1475.7,
     "title": "Hypatia and the end of the Library",
     "desc": "Back to Alexandria: why the city never shared its discoveries, the murder of Hypatia, and the burning of the last of the library. What we lost, and why it could happen again.",
-    "star": true
+    "star": true,
+    "questions": [
+     "The Library's discoveries were never shared with ordinary people, so no one defended it. What knowledge today is in that position?",
+     "Hypatia was killed partly for what she symbolized. Why are symbols of learning sometimes targets?",
+     "What's one thing you could do to make science more accessible to someone in your life?"
+    ]
    },
    {
     "id": "e13-4",
     "start": 2226.4,
     "title": "A story about the beginning",
-    "desc": "Fifteen billion years told as one story, from fusion in the first stars to molecules that copy themselves to us, then a montage of humanity and the wonder of discovery."
+    "desc": "Fifteen billion years told as one story, from fusion in the first stars to molecules that copy themselves to us, then a montage of humanity and the wonder of discovery.",
+    "questions": [
+     "Fifteen billion years told as one story sounds like myth, but it's evidence-based. Does that story move you the way myths do?",
+     "An alien would find our cultural differences trivial compared to what we share. Do you agree?",
+     "Where were you the first time you felt real wonder about the universe?"
+    ]
    },
    {
     "id": "e13-5",
     "start": 3009.8,
     "title": "Who speaks for Earth? It's up to you",
     "desc": "Science as the best tool we have, the first footprints on the Moon, and Sagan's closing words: our loyalties are to the species and the planet. We speak for Earth.",
-    "star": true
+    "star": true,
+    "questions": [
+     "\"Our loyalties are to the species and the planet.\" How would the world change if most people really felt that?",
+     "Sagan calls science \"the best tool we have,\" but not perfect. Where is it misused, and how do we guard against that?",
+     "After the whole series, what's the one idea from Cosmos you most want to carry with you?",
+     "Who speaks for Earth? Do you?"
+    ]
    }
   ]
  }

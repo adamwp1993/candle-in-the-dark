@@ -191,6 +191,22 @@ textarea:focus { outline: 1px solid var(--gold); }
   .notes li { grid-template-columns: 46px 1fr; }
   .notes .acts { grid-column: 2; }
 }
+.qs { display: flex; flex-direction: column; gap: 14px; }
+.q p { margin: 0 0 6px; font-size: 14px; line-height: 1.45; }
+.q p b { color: var(--gold); font-weight: 600; margin-right: 4px; }
+.q textarea { min-height: 64px; }
+.q .saved { font-size: 11.5px; color: var(--muted); height: 14px; text-align: right; }
+.q .saved.ok { color: var(--good); }
+.qs .empty { padding: 4px; font-size: 13px; }
+#qPanel.flash { box-shadow: 0 0 0 2px var(--gold); transition: box-shadow .3s; }
+.reflect-badge { font-size: 11.5px; color: var(--accent); margin-left: 4px; }
+.reflections { margin: 4px 0 14px; display: flex; flex-direction: column; gap: 12px; }
+.refl-seg h4 { margin: 0 0 6px; font-size: 14px; cursor: pointer; color: var(--text); }
+.refl-seg h4:hover { color: var(--gold); }
+.refl-qa { border-left: 2px solid var(--line); padding: 2px 0 2px 12px; margin-bottom: 8px; }
+.refl-qa .qq { font-size: 13px; color: var(--muted); }
+.refl-qa .aa { font-size: 14.5px; white-space: pre-wrap; word-break: break-word; margin-top: 2px; }
+.sublabel { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 10px 0 4px; }
 .all-ep { margin-bottom: 22px; }
 .all-ep h3 { font-size: 16px; margin-bottom: 6px; }
 .all-ep .notes { max-height: none; }

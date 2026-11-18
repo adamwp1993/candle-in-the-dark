@@ -11,14 +11,14 @@ const mins = (sec) => Math.max(1, Math.round(sec / 60)) + " min";
 const api = (url, opts = {}) =>
   fetch(url, { ...opts, headers: { "Content-Type": "application/json" }, body: opts.body && JSON.stringify(opts.body) }).then((r) => r.json());
 
-const S = { episodes: [], segs: {}, user: { progress: {}, notes: {}, seen: {} }, cur: null, clip: null, lastSave: 0 };
+const S = { episodes: [], segs: {}, user: { progress: {}, notes: {}, seen: {}, answers: {} }, cur: null, clip: null, lastSave: 0 };
 const video = $("#video");
 
 // ------------------------------------------------------------ data
 async function loadAll() {
   const [eps, segData, user] = await Promise.all([api("/api/episodes"), api("/api/segments"), api("/api/user")]);
   S.episodes = eps;
-  S.user = { progress: {}, notes: {}, seen: {}, ...user };
+  S.user = { progress: {}, notes: {}, seen: {}, answers: {}, ...user };
   S.segs = {};
   for (const ep of eps) {
     const list = (segData.episodes && segData.episodes[ep.num]) || [];
@@ -143,7 +143,7 @@ function segListHTML(n, curT = -1) {
   if (!segs.length) return `<div class="muted small" style="padding:8px">Sections for this episode are still being mapped.</div>`;
   return segs.map((s) => `<li data-id="${s.id}" data-t="${s.start}" class="${S.user.seen[s.id] ? "done" : ""} ${curT >= s.start && curT < s.end ? "now" : ""}">
       <span class="t">${fmt(s.start)}</span>
-      <div><div class="name">${s.star ? '<span class="star">★</span> ' : ""}${esc(s.title)} <span class="muted small">· ${mins(s.end - s.start)}</span></div>
+      <div><div class="name">${s.star ? '<span class="star">★</span> ' : ""}${esc(s.title)} <span class="muted small">· ${mins(s.end - s.start)}</span>${answeredBadge(s)}</div>
       <div class="d">${esc(s.desc)}</div></div></li>`).join("");
 }
 function renderEpisodes() {
@@ -189,6 +189,7 @@ function openPlayer(n, { t, clip }) {
   const switching = !S.cur || S.cur.num !== n;
   S.cur = e;
   S.clip = clip ? segById(clip) : null;
+  S.qSeg = null; S.qShown = undefined;
   $("#playerTitle").textContent = `Episode ${e.num} · ${e.title}`;
   $("#clipDone").classList.add("hidden");
   const local = e.download.state === "done";
@@ -216,14 +217,66 @@ function openPlayer(n, { t, clip }) {
   updateClipBanner();
 }
 
-function renderSegs() {
+// ------------------------------------------------------------ reflection questions
+const answersFor = (id) => S.user.answers[id] || {};
+function answeredBadge(s) {
+  const n = (s.questions || []).length, a = Object.keys(answersFor(s.id)).length;
+  return n && a ? `<span class="reflect-badge">✎ ${a}/${n}</span>` : "";
+}
+// The panel follows the section you're watching; after a section ends it stays on the one you just finished.
+function renderQuestions(force) {
   if (!S.cur) return;
+  const s = S.qSeg || segAt(S.cur.num, video.currentTime);
+  if (!force && (s && s.id) === S.qShown) return;
+  if (!force && $("#qList").contains(document.activeElement)) return; // don't yank the box out from under you
+  S.qShown = s && s.id;
+  $("#qFor").textContent = s ? s.title : "";
+  if (!s || !(s.questions || []).length) { $("#qList").innerHTML = `<div class="empty muted">No questions for this part.</div>`; return; }
+  const ans = answersFor(s.id);
+  $("#qList").innerHTML = s.questions.map((q, i) => `<div class="q">
+      <p><b>${i + 1}.</b>${esc(q)}</p>
+      <textarea rows="3" data-q="${i}" placeholder="Your answer…">${esc((ans[i] && ans[i].text) || "")}</textarea>
+      <div class="saved" data-saved="${i}"></div></div>`).join("");
+  $$("#qList textarea").forEach((ta) => {
+    let timer;
+    const save = async () => {
+      clearTimeout(timer);
+      const q = +ta.dataset.q, text = ta.value, mark = $(`[data-saved="${q}"]`);
+      const cur = (answersFor(s.id)[q] || {}).text || "";
+      if (text === cur) return;
+      await api(`/api/answers/${s.id}`, { method: "POST", body: { q, text } });
+      const a = (S.user.answers[s.id] = S.user.answers[s.id] || {});
+      if (text.trim()) a[q] = { text, updated: Date.now() / 1000 }; else delete a[q];
+      if (!Object.keys(a).length) delete S.user.answers[s.id];
+      mark.textContent = "saved ✓"; mark.className = "saved ok";
+      setTimeout(() => { mark.textContent = ""; mark.className = "saved"; }, 1500);
+      $("#segList").innerHTML && renderSegList();
+    };
+    ta.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(save, 900); });
+    ta.addEventListener("blur", save);
+  });
+}
+$("#clipReflect").onclick = () => {
+  renderQuestions(true);
+  $("#qPanel").scrollIntoView({ behavior: "smooth", block: "start" });
+  $("#qPanel").classList.add("flash"); setTimeout(() => $("#qPanel").classList.remove("flash"), 1200);
+  const first = $$("#qList textarea").find((t) => !t.value.trim()) || $("#qList textarea");
+  if (first) setTimeout(() => first.focus({ preventScroll: true }), 400);
+};
+
+function renderSegList() {
   $("#segList").innerHTML = segListHTML(S.cur.num, video.currentTime);
   $$("#segList li").forEach((li) => (li.onclick = () => {
+    S.qSeg = null;
     S.clip = segById(li.dataset.id); updateClipBanner(); $("#clipDone").classList.add("hidden");
     video.currentTime = +li.dataset.t; video.play();
   }));
+}
+function renderSegs() {
+  if (!S.cur) return;
+  renderSegList();
   const s = segAt(S.cur.num, video.currentTime);
+  renderQuestions();
   $("#currentSeg").innerHTML = s ? `<div class="muted small">Now: section ${S.segs[S.cur.num].indexOf(s) + 1} of ${S.segs[S.cur.num].length} · ${fmt(s.start)}–${fmt(s.end)}</div>
     <h3>${s.star ? '<span class="star">★</span> ' : ""}${esc(s.title)}</h3><p>${esc(s.desc)}</p>` : "";
 }
@@ -274,6 +327,7 @@ function finishClip() {
   video.pause();
   markSeen(S.clip.id);
   S.lastClip = S.clip;
+  S.qSeg = S.clip; // keep the questions on the section you just finished
   // next section in this episode, or the first section of the next episode
   const next = (S.segs[S.cur.num] || []).find((x) => x.start >= S.clip.end - 1) || (S.segs[S.cur.num + 1] || [])[0];
   S.nextClip = next;
@@ -281,11 +335,13 @@ function finishClip() {
   $("#clipDoneText").textContent = `"${S.clip.title}" — a good place to stop. Your place is saved.`;
   $("#clipNext").classList.toggle("hidden", !next);
   $("#clipNextName").textContent = next ? (next.ep !== S.cur.num ? `Episode ${next.ep}: ` : "") + next.title : "";
+  $("#clipReflect").classList.toggle("hidden", !(S.clip.questions || []).length);
   S.clip = null; updateClipBanner();
   $("#clipDone").classList.remove("hidden");
+  renderQuestions(true);
 }
 video.addEventListener("pause", () => saveProgress());
-video.addEventListener("play", () => $("#clipDone").classList.add("hidden"));
+video.addEventListener("play", () => { $("#clipDone").classList.add("hidden"); if (S.qSeg) { S.qSeg = null; renderQuestions(); } });
 window.addEventListener("beforeunload", () => saveProgress(true));
 
 function saveProgress(beacon) {
@@ -343,10 +399,19 @@ function renderNotes() {
   wireNotes($("#noteList"));
 }
 function renderAllNotes() {
-  const html = S.episodes.filter((e) => (S.user.notes[e.num] || []).length).map((e) =>
-    `<div class="all-ep panel"><h3>Episode ${e.num} · ${esc(e.title)}</h3><ul class="notes">${noteItems(e.num, S.user.notes[e.num])}</ul></div>`).join("");
-  $("#allNotes").innerHTML = html || `<div class="empty">No notes yet. While watching, press N or use the Notes box beside the video.</div>`;
+  const html = S.episodes.map((e) => {
+    const notes = S.user.notes[e.num] || [];
+    const answered = (S.segs[e.num] || []).filter((s) => Object.keys(answersFor(s.id)).length);
+    if (!notes.length && !answered.length) return "";
+    const refl = answered.map((s) => `<div class="refl-seg"><h4 data-clip="${s.id}">${s.star ? "★ " : ""}${esc(s.title)} <span class="muted small">· ${fmt(s.start)}</span></h4>
+      ${s.questions.map((q, i) => answersFor(s.id)[i] ? `<div class="refl-qa"><div class="qq">${esc(q)}</div><div class="aa">${esc(answersFor(s.id)[i].text)}</div></div>` : "").join("")}</div>`).join("");
+    return `<div class="all-ep panel"><h3>Episode ${e.num} · ${esc(e.title)}</h3>
+      ${answered.length ? `<div class="sublabel">Reflections</div><div class="reflections">${refl}</div>` : ""}
+      ${notes.length ? `<div class="sublabel">Notes</div><ul class="notes">${noteItems(e.num, notes)}</ul>` : ""}</div>`;
+  }).join("");
+  $("#allNotes").innerHTML = html || `<div class="empty">Nothing yet. While watching, answer the questions in "Think about it" or jot a note (press N on a computer).</div>`;
   wireNotes($("#allNotes"));
+  $$("#allNotes [data-clip]").forEach((h) => (h.onclick = () => playClip(h.dataset.clip)));
 }
 $("#noteForm").onsubmit = async (ev) => {
   ev.preventDefault();

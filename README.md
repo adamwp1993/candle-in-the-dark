@@ -16,7 +16,8 @@ The goal here is to make this series easier to get to and easier to digest:
 - **Bite-sized sections.** Every episode is split into 4–6 sections at natural breaks where Sagan moves from one topic to the next, so when you stop, you're stopping at a good place and not halfway through a thought.
 - **The best stuff, starred.** If you've only got 15 minutes, there are 24 starred sections that stand on their own: the Cosmic Calendar, Eratosthenes measuring the Earth with a stick, the Heike crabs, Flatland and the fourth dimension, the apple pie, and so on.
 - **Up next.** One button that plays your next section and stops when it's done. That's it. Work through the whole series a piece at a time.
-- **Notes.** Jot something down at any moment and it's pinned to that timestamp so you can jump back to it later.
+- **Questions to sit with.** Every section comes with 2–4 questions. Not quiz questions, more like the stuff you'd talk about with a friend after watching. Type out your answers right next to the video. Watching something is one thing. Actually wrestling with it is how it sticks.
+- **Notes.** Jot something down at any moment and it's pinned to that timestamp so you can jump back to it later. Your notes and your answers all live together on the My notes page.
 - **Captions** for every episode.
 - **Works on your phone** over your home Wi-Fi, and your place carries over between devices.
 
@@ -53,8 +54,8 @@ With an NVIDIA GPU it takes about two minutes an episode. Without one it falls b
 | `server.py` | The whole backend. Plain Python, no dependencies. Serves the app, downloads episodes, saves your progress and notes. |
 | `static/` | The app itself (HTML, CSS, JS). |
 | `data/episodes.json` | The 13 episodes and their archive.org files. |
-| `data/segments.json` | Every section: title, description, start time, and whether it's starred. Disagree with my picks? Edit it and reload. |
-| `data/user.json` | Your progress, what you've watched, and your notes. Not in git. Back it up if you care about your notes. |
+| `data/segments.json` | Every section: title, description, start time, whether it's starred, and its questions. Disagree with my picks? Edit it and reload. |
+| `data/user.json` | Your progress, what you've watched, your notes and your answers. Not in git. Back it up if you care about your notes. |
 | `videos/` | Downloaded episodes. Not in git. |
 | `transcribe.py` | Makes the transcripts and captions. |
 
