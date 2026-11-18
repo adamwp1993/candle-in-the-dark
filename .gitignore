@@ -1,0 +1,24 @@
+# The episodes themselves (~11 GB). The app re-downloads them from archive.org.
+videos/
+*.part
+
+# Your personal watch progress and notes
+data/user.json
+data/user.json.tmp
+
+# Whisper transcripts and captions: they're the full narration of the show,
+# so they stay local. Regenerate with transcribe.py.
+data/subs/
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+venv/
+
+# Editors, OS, local tool settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.claude/settings.local.json

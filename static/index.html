@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#07080d">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Cosmos">
+<title>Cosmos Voyager</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand" id="homeLink" role="button" tabindex="0">
+    <span class="dot"></span>
+    <div>
+      <h1>Cosmos Voyager</h1>
+      <p>Carl Sagan · A Personal Voyage · 1980</p>
+    </div>
+  </div>
+  <nav class="tabs">
+    <button data-view="highlights" class="active">Home</button>
+    <button data-view="episodes">Episodes</button>
+    <button data-view="notes">My notes</button>
+  </nav>
+  <button class="btn small ghost hidden" id="phoneBtn">📱 Open on phone</button>
+</header>
+<div id="phonePop" class="phone-pop hidden">
+  <div class="phone-card">
+    <h3>Watch on your phone</h3>
+    <p class="muted small">Connect your phone to the same Wi-Fi as this PC, then scan this or type the address into its browser. Your place and notes are shared between both.</p>
+    <div id="qr"></div>
+    <code id="lanUrl"></code>
+    <p class="muted small">Tip: use your browser's "Add to Home Screen" to get an app icon. This PC has to be on and running Cosmos Voyager.</p>
+    <button class="btn small" id="phoneClose">Done</button>
+  </div>
+</div>
+
+<main>
+  <!-- Highlights -->
+  <section id="view-highlights" class="view active">
+    <div id="upnext"></div>
+    <div id="continue"></div>
+    <div class="section-head">
+      <div>
+        <h2>★ The best sections</h2>
+        <p class="sub">The mind-blowing ones. Each stands on its own — click and it plays just that part, then stops.</p>
+      </div>
+      <label class="toggle"><input type="checkbox" id="hideSeen"> Hide ones I've seen</label>
+    </div>
+    <div id="highlightGrid" class="grid"></div>
+  </section>
+
+  <!-- Episodes -->
+  <section id="view-episodes" class="view">
+    <div class="section-head">
+      <div>
+        <h2>All 13 episodes</h2>
+        <p class="sub">Each episode is split into 10–20 minute sections at natural breaks in the topic. Click a section to watch just that part.</p>
+      </div>
+      <button id="downloadAll" class="btn">Download all</button>
+    </div>
+    <div id="episodeList" class="ep-list"></div>
+  </section>
+
+  <!-- Notes -->
+  <section id="view-notes" class="view">
+    <div class="section-head"><div><h2>My notes</h2><p class="sub">Every note you've written, by episode. Click a time to jump there.</p></div></div>
+    <div id="allNotes"></div>
+  </section>
+
+  <!-- Player -->
+  <section id="view-player" class="view">
+    <div class="player-layout">
+      <div class="player-main">
+        <div class="crumbs"><button class="link" id="backBtn">← Back</button> <span id="playerTitle"></span></div>
+        <div class="video-wrap">
+          <video id="video" controls preload="metadata" playsinline></video>
+          <div id="clipBanner" class="clip-banner hidden">
+            <div><span class="star">★</span> <b id="clipTitle"></b> <span id="clipRemain" class="muted"></span></div>
+            <button class="btn small ghost" id="clipKeep">Keep watching past this</button>
+          </div>
+          <div id="clipDone" class="clip-done hidden">
+            <h3>That's the end of this part.</h3>
+            <p id="clipDoneText"></p>
+            <div class="row">
+              <button class="btn" id="clipNext">Next part: <span id="clipNextName"></span></button>
+              <button class="btn ghost" id="clipReplay">Replay</button>
+            </div>
+          </div>
+        </div>
+        <div class="source" id="sourceNote"></div>
+        <div class="current-seg" id="currentSeg"></div>
+      </div>
+      <aside class="player-side">
+        <div class="panel">
+          <div class="panel-head"><h3>Notes</h3><span class="muted small keyhint">press N</span></div>
+          <form id="noteForm" class="note-form">
+            <div class="note-at">at <b id="noteAt">0:00</b></div>
+            <textarea id="noteText" rows="3" placeholder="What struck you here?"></textarea>
+            <button class="btn small" type="submit">Save note</button>
+          </form>
+          <ul id="noteList" class="notes"></ul>
+        </div>
+        <div class="panel">
+          <div class="panel-head"><h3>Sections</h3><span class="muted small">each stops at its end</span></div>
+          <ol id="segList" class="segs"></ol>
+        </div>
+      </aside>
+    </div>
+  </section>
+</main>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

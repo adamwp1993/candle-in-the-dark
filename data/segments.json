@@ -1,0 +1,427 @@
+{
+ "note": "Sections are placed at natural topic breaks found in Whisper transcripts of the archive.org files. start is in seconds; a section ends where the next begins.",
+ "episodes": {
+  "1": [
+   {
+    "id": "e01-1",
+    "start": 0,
+    "title": "The Ship of the Imagination",
+    "star": true,
+    "desc": "\"We're made of star stuff.\" Sagan sets out from the edge of the known universe, past colliding galaxies, quasars and Andromeda, to our own Milky Way, pulsars and all."
+   },
+   {
+    "id": "e01-2",
+    "start": 1087,
+    "title": "Stellar nurseries, then the long fall home",
+    "desc": "An alien world reshaped by its inhabitants, the Orion Nebula where stars are born, then inward past Saturn, Jupiter and Mars to a blue world, third from the sun."
+   },
+   {
+    "id": "e01-3",
+    "start": 1767.9,
+    "title": "Eratosthenes measures the Earth with a stick",
+    "star": true,
+    "desc": "Sticks, shadows and a well at Syene: a librarian in 3rd-century BC Egypt works out the size of the planet to within a few percent. Plus the Phoenicians who sailed around Africa."
+   },
+   {
+    "id": "e01-4",
+    "start": 2365,
+    "title": "The Library of Alexandria",
+    "desc": "A walk through a reconstruction of the ancient world's greatest library: Euclid, Hipparchus, Hypatia, and the lost book of Aristarchus. What we lost, and how its rediscovery lit the Renaissance."
+   },
+   {
+    "id": "e01-5",
+    "start": 3168.9,
+    "title": "The Cosmic Calendar",
+    "star": true,
+    "desc": "All 15 billion years squeezed into one year. Every king, war and invention in the history books fits into the last ten seconds of December 31st."
+   }
+  ],
+  "2": [
+   {
+    "id": "e02-1",
+    "start": 0,
+    "title": "The Heike crab: a samurai face shaped by fishermen",
+    "star": true,
+    "desc": "A 12th-century sea battle, a drowned child emperor, and crabs whose shells bear a warrior's scowl. A perfect, eerie lesson in artificial selection."
+   },
+   {
+    "id": "e02-2",
+    "start": 813,
+    "title": "Natural selection and the first molecules of life",
+    "desc": "Trilobites, Darwin and Wallace, the watchmaker argument, then the cosmic calendar of life: the organic soup, the first self-copying molecule, and DNA."
+   },
+   {
+    "id": "e02-3",
+    "start": 1531.7,
+    "title": "Four billion years in forty seconds",
+    "star": true,
+    "desc": "From a soap-bubble cell to fish, amphibians, dinosaurs, shrews and us, ending in the famous morphing march of evolution. Then: why we and the trees are cousins."
+   },
+   {
+    "id": "e02-4",
+    "start": 2241.5,
+    "title": "Voyage into a living cell",
+    "desc": "Sagan pricks his finger and we dive into a white blood cell, through a nuclear pore, to watch DNA unzip and copy itself, proofreading enzyme and all."
+   },
+   {
+    "id": "e02-5",
+    "start": 2852.2,
+    "title": "Making life's building blocks, and the floaters of Jupiter",
+    "desc": "Sparking primordial gases in a Cornell lab produces the stuff of life. Then Sagan imagines city-sized living balloons, sinkers and hunters drifting in a Jupiter-like sky."
+   }
+  ],
+  "3": [
+   {
+    "id": "e03-1",
+    "start": 0,
+    "title": "Astrology on trial",
+    "desc": "Two newspapers, same day, contradictory horoscopes. Twins with opposite fates. And the obstetrician who had more gravitational pull on baby Carl than Mars did."
+   },
+   {
+    "id": "e03-2",
+    "start": 665.8,
+    "title": "Pictures in the stars and the sun temples of the Anasazi",
+    "desc": "The Big Dipper as a plow, a casserole, a bureaucrat and a hippo with a crocodile on its back. Then ancient solstice markers that catch the sun on one day a year."
+   },
+   {
+    "id": "e03-3",
+    "start": 1221.5,
+    "title": "Wandering planets: Ptolemy, Copernicus, and young Kepler",
+    "desc": "Why planets loop backward in the sky, the Earth-centered vs Sun-centered fight, and a lonely seminary boy who wanted to read the mind of God through geometry and the perfect solids."
+   },
+   {
+    "id": "e03-4",
+    "start": 2148.6,
+    "title": "Kepler, Tycho Brahe, and the eight minutes of arc",
+    "desc": "Exile, a gold-nosed Danish nobleman hoarding the best data on Earth, and the moment Kepler chooses an inconvenient eight-minute discrepancy over his beloved theory. Out come the laws of planetary motion.",
+    "star": true
+   },
+   {
+    "id": "e03-5",
+    "start": 3002.2,
+    "title": "War, witchcraft, and the harmony of the worlds",
+    "desc": "The Thirty Years' War, Kepler's mother tried as a witch, the first science fiction story, and why preferring hard truth to dear illusions is the heart of science."
+   }
+  ],
+  "4": [
+   {
+    "id": "e04-1",
+    "start": 0,
+    "title": "Tunguska, and comets as omens of doom",
+    "desc": "In 1908 something flattened 2,000 square km of Siberian forest and left no crater. Sagan works the mystery, then tours centuries of comet panic, including 1910's comet pills.",
+    "star": true
+   },
+   {
+    "id": "e04-2",
+    "start": 889.2,
+    "title": "Comets, craters, and the monks who saw the Moon explode",
+    "desc": "How comets get captured and crash into worlds, and five Canterbury monks in 1178 who saw fire on the Moon, an account that laser-ranging and a young crater may confirm.",
+    "star": true
+   },
+   {
+    "id": "e04-3",
+    "start": 1674,
+    "title": "Velikovsky's Venus, and reading a planet from its light",
+    "desc": "\"Observation: you couldn't see a thing. Conclusion: dinosaurs.\" Sagan takes apart wild ideas about Venus and shows how a prism lets us read what distant worlds are made of."
+   },
+   {
+    "id": "e04-4",
+    "start": 2473.3,
+    "title": "Into the hell of Venus, and a warning for Earth",
+    "desc": "Descend with the Soviet Venera landers into sulfuric acid clouds and 900°F crushing heat: a runaway greenhouse. Then erosion, the Sphinx, and what we are doing to our own climate."
+   }
+  ],
+  "5": [
+   {
+    "id": "e05-1",
+    "start": 0,
+    "title": "War of the Worlds and Lowell's canals",
+    "desc": "H.G. Wells' Martians, Orson Welles' panic, and Percival Lowell's Arizona observatory where he saw a dying civilization's irrigation canals that weren't there.",
+    "star": true
+   },
+   {
+    "id": "e05-2",
+    "start": 876,
+    "title": "Goddard's cherry-tree dream, and the real Mars",
+    "desc": "A boy in a cherry tree resolves to reach Mars and invents the liquid-fuel rocket. Then a flight over the real Mars: no canals, but giant volcanoes, river valleys and Valles Marineris."
+   },
+   {
+    "id": "e05-3",
+    "start": 1838.5,
+    "title": "Viking lands on Mars and looks for life",
+    "desc": "Choosing a landing site, the first pictures from the Martian surface, and the life-detection experiments that came back tantalizing, provocative and deeply ambiguous."
+   },
+   {
+    "id": "e05-4",
+    "start": 2532,
+    "title": "What life is made of, and a rover with laser eyes",
+    "desc": "Sagan stirs a vat of the chemicals that make a human and gets a boring mixture of atoms: the magic is in the arrangement. Plus why Mars needs a roving explorer."
+   },
+   {
+    "id": "e05-5",
+    "start": 2988.8,
+    "title": "Wolf Vishniac, and the Martians will be us",
+    "desc": "A microbiologist who died searching for life in Antarctica's dry valleys. Then: should we terraform Mars? If we do, the Martians will be us."
+   }
+  ],
+  "6": [
+   {
+    "id": "e06-1",
+    "start": 0,
+    "title": "Voyager sets out",
+    "desc": "A visit to Voyager mission control as the spacecraft reaches Jupiter, and the golden record it carries for anyone who might find it among the stars."
+   },
+   {
+    "id": "e06-2",
+    "start": 696.9,
+    "title": "The Dutch Republic: ships, maps and free minds",
+    "desc": "17th-century Holland as a spacefaring civilization of its day: voyages to the Spice Islands, secret charts, tolerance of heretics, and a refuge for free thinkers."
+   },
+   {
+    "id": "e06-3",
+    "start": 1271.8,
+    "title": "Christiaan Huygens imagines other worlds",
+    "desc": "Microscopes reveal the microbial world, telescopes reveal Titan, and Huygens dares to imagine the inhabitants of other planets and their many suns."
+   },
+   {
+    "id": "e06-4",
+    "start": 1968.8,
+    "title": "Voyager at Jupiter: Europa's cracks and Io's volcanoes",
+    "desc": "Traveler's tales from the outer solar system: scientists arguing over Europa's strange surface in real time, and the discovery of the first active volcanoes beyond Earth.",
+    "star": true
+   },
+   {
+    "id": "e06-5",
+    "start": 2797.1,
+    "title": "Through Saturn's rings to Titan",
+    "desc": "Voyager's logbook, then a flight between the snowball moonlets of Saturn's rings and down toward Titan, where the building blocks of life may rain from the sky."
+   }
+  ],
+  "7": [
+   {
+    "id": "e07-1",
+    "start": 0,
+    "title": "A Brooklyn boy asks what the stars are",
+    "desc": "Sagan walks his childhood neighborhood, remembers the library book that told him stars are suns, then visits a Brooklyn classroom to talk planets and Ganymede with kids."
+   },
+   {
+    "id": "e07-2",
+    "start": 586,
+    "title": "Campfires, myths, and the backbone of night",
+    "desc": "How early humans explained the lights overhead: campfires of other tribes, the Milky Way as the sky's spine, Hera's spilled milk, and the capricious gods."
+   },
+   {
+    "id": "e07-3",
+    "start": 1004,
+    "title": "The Ionian awakening: the universe is knowable",
+    "desc": "Why science was born on the islands of the eastern Mediterranean: merchants, engineers, and Thales, who explained the world without gods, plus the Tunnel of Eupalinos."
+   },
+   {
+    "id": "e07-4",
+    "start": 1531.0,
+    "title": "Empedocles' water thief and Democritus' atoms",
+    "desc": "A kitchen gadget proves air is something real. Then Democritus cuts an apple and reasons his way to atoms and empty space, 2,400 years early.",
+    "star": true
+   },
+   {
+    "id": "e07-5",
+    "start": 2065.4,
+    "title": "Pythagoras, Plato, and the dangerous dodecahedron",
+    "desc": "Mathematical harmony, five perfect solids, a secret too dangerous for the public, and how the Pythagoreans and Plato steered science away from experiment for 2,000 years."
+   },
+   {
+    "id": "e07-6",
+    "start": 2640.0,
+    "title": "Aristarchus, the distance to the stars, and other planets",
+    "desc": "The man who put the Sun at the center centuries before Copernicus, how to gauge the distance to Sirius with a brass plate, and a classroom demo of how to find hidden planets."
+   }
+  ],
+  "8": [
+   {
+    "id": "e08-1",
+    "start": 0,
+    "title": "Constellations through time",
+    "desc": "Every constellation is one frame in a cosmic movie. Sagan runs the sky forward and back a million years, watching the Big Dipper and Orion fall apart."
+   },
+   {
+    "id": "e08-2",
+    "start": 627.7,
+    "title": "Einstein on a bicycle in Tuscany: riding a light beam",
+    "desc": "A teenage Einstein wonders what you'd see riding a light wave. Then a scooter ride near light speed: the world squeezes, colors shift, and a twin comes home younger than his brother.",
+    "star": true
+   },
+   {
+    "id": "e08-3",
+    "start": 1528.8,
+    "title": "Leonardo's flying machines, starships, and time travel",
+    "desc": "Leonardo was trapped in his century. Could we be too? Nuclear-pulse starships Orion and Daedalus, a 1g ride across the galaxy, and what we'd change if we could travel to the past."
+   },
+   {
+    "id": "e08-4",
+    "start": 2544.5,
+    "title": "Worlds forming, and the branch points of history",
+    "desc": "Watch a solar system condense from dust, imagine the planets of other stars, then rewind evolution: if history had been a little different, who would be here instead of us?"
+   }
+  ],
+  "9": [
+   {
+    "id": "e09-1",
+    "start": 0,
+    "title": "To make an apple pie, first invent the universe",
+    "desc": "The famous line, then Sagan keeps cutting a slice of pie in half until he reaches atoms. Mirrors, infinity, the googol and the googolplex.",
+    "star": true
+   },
+   {
+    "id": "e09-2",
+    "start": 638.4,
+    "title": "Atoms, elements, and why the stars shine",
+    "desc": "The 92 natural elements, how protons and neutrons build each one, and the fusion of hydrogen into helium that lights every star, including a tour of our turbulent Sun."
+   },
+   {
+    "id": "e09-3",
+    "start": 1488.1,
+    "title": "How stars die, and the supernova the Anasazi saw",
+    "desc": "Red giants, the Sun's distant death, supernovas forging the heavy elements, cosmic rays clicking in a Geiger counter in a cave, and a pictograph of the explosion of 1054.",
+    "star": true
+   },
+   {
+    "id": "e09-4",
+    "start": 2456.5,
+    "title": "Neutron stars, black holes, and a gravity tea party",
+    "desc": "A spoonful of neutron star would punch through the Earth. Sagan plays with gravity until tea floats, light bends back on itself, and a black hole might lead to elsewhere and elsewhen.",
+    "star": true
+   },
+   {
+    "id": "e09-5",
+    "start": 3036.0,
+    "title": "We are made of star stuff",
+    "desc": "Why the stars aren't remote from us at all: the atoms in us were forged in them. And the dawn you'd see from a planet inside a globular cluster."
+   }
+  ],
+  "10": [
+   {
+    "id": "e10-1",
+    "start": 0,
+    "title": "The birth of the universe and colliding galaxies",
+    "desc": "From the Big Bang to the first galaxies, then billions of years compressed into seconds as galaxies spin, collide and spill their stars into the void."
+   },
+   {
+    "id": "e10-2",
+    "start": 661.8,
+    "title": "Doppler shifts and the janitor who found the expanding universe",
+    "desc": "A passing train's whistle explains red shift. Milton Humason, a mule driver turned Mount Wilson janitor, and Hubble discover the galaxies are rushing away."
+   },
+   {
+    "id": "e10-3",
+    "start": 1376.3,
+    "title": "Flatland and the fourth dimension",
+    "desc": "Sagan's legendary explanation: a flat creature visited by a 3D apple, a cube's shadow, the tesseract, and how our universe might be curved through a dimension we can't see.",
+    "star": true
+   },
+   {
+    "id": "e10-4",
+    "start": 2103,
+    "title": "The Hindu cosmos and the oscillating universe",
+    "desc": "The only ancient religion whose timescales match modern cosmology: a day and night of Brahma, 8.64 billion years. Shiva's dance and an endlessly reborn universe.",
+    "star": true
+   },
+   {
+    "id": "e10-5",
+    "start": 3012.9,
+    "title": "Listening with radio telescopes at the edge of forever",
+    "desc": "The Very Large Array and a universe revealed in radio and X-ray light, plus how mapping galaxies by the million showed a universe of bubbles."
+   }
+  ],
+  "11": [
+   {
+    "id": "e11-1",
+    "start": 0,
+    "title": "A water world, and the songs of whales",
+    "desc": "The aliens of Earth's oceans, then the great whales: 15-minute songs with the information of an epic poem, once heard across whole oceans until our ships drowned them out.",
+    "star": true
+   },
+   {
+    "id": "e11-2",
+    "start": 1190.4,
+    "title": "The library in every cell, and the library in your head",
+    "desc": "Each cell carries a thousand volumes of genetic instructions. Then the brain: reptile core, mammal emotions, a cortex holding 20 million books' worth, and one of Sagan's earliest memories."
+   },
+   {
+    "id": "e11-3",
+    "start": 2118.2,
+    "title": "The city as brain, and what an astonishing thing a book is",
+    "desc": "New York grows like a brain, keeping its old parts. Then Sagan's ode to books: a flat object made from a tree, through which an author speaks across millennia.",
+    "star": true
+   },
+   {
+    "id": "e11-4",
+    "start": 2967.0,
+    "title": "A global brain, and the Voyager record",
+    "desc": "Ideas as the genes of culture, what alien brains might be like, and the golden record: a message in a bottle cast into the cosmic ocean."
+   }
+  ],
+  "12": [
+   {
+    "id": "e12-1",
+    "start": 0,
+    "title": "UFOs and the Betty and Barney Hill abduction",
+    "desc": "Why haven't aliens visited? Sagan examines the most famous abduction story and its star map, and gives us \"extraordinary claims require extraordinary evidence.\""
+   },
+   {
+    "id": "e12-2",
+    "start": 594.8,
+    "title": "Champollion cracks the hieroglyphics",
+    "desc": "A boy sees hieroglyphs nobody can read and vows to decipher them. Decades later he walks into the temples of Egypt and reads walls that waited half a million nights for a reader.",
+    "star": true
+   },
+   {
+    "id": "e12-3",
+    "start": 1672.2,
+    "title": "How to talk to aliens, and the Drake equation",
+    "desc": "Science as the universal language, the Arecibo radio dish, then Sagan works through the famous equation for how many civilizations might be out there.",
+    "star": true
+   },
+   {
+    "id": "e12-4",
+    "start": 2572,
+    "title": "The Encyclopaedia Galactica",
+    "desc": "What a first message might look like, why they might not have come, and leafing through a galactic encyclopedia of worlds, all the way to the entry for Earth."
+   }
+  ],
+  "13": [
+   {
+    "id": "e13-1",
+    "start": 0,
+    "title": "The Tlingit meet La Pérouse, and a dream of a dead world",
+    "desc": "\"Choose life.\" A peaceful 1786 first contact in Alaska, then Sagan dreams of returning to Earth and finding it silent. What would the galactic encyclopedia say about us?",
+    "star": true
+   },
+   {
+    "id": "e13-2",
+    "start": 976.4,
+    "title": "A blockbuster for every family",
+    "desc": "The reptile brain and the bomb: how the world built more than 10,000 megatons of nuclear weapons, what they would do, and how humanity has outgrown old evils before."
+   },
+   {
+    "id": "e13-3",
+    "start": 1475.7,
+    "title": "Hypatia and the end of the Library",
+    "desc": "Back to Alexandria: why the city never shared its discoveries, the murder of Hypatia, and the burning of the last of the library. What we lost, and why it could happen again.",
+    "star": true
+   },
+   {
+    "id": "e13-4",
+    "start": 2226.4,
+    "title": "A story about the beginning",
+    "desc": "Fifteen billion years told as one story, from fusion in the first stars to molecules that copy themselves to us, then a montage of humanity and the wonder of discovery."
+   },
+   {
+    "id": "e13-5",
+    "start": 3009.8,
+    "title": "Who speaks for Earth? It's up to you",
+    "desc": "Science as the best tool we have, the first footprints on the Moon, and Sagan's closing words: our loyalties are to the species and the planet. We speak for Earth.",
+    "star": true
+   }
+  ]
+ }
+}
