@@ -77,10 +77,13 @@
       <div class="player-main">
         <div class="crumbs"><button class="link" id="backBtn">← Back</button> <span id="playerTitle"></span></div>
         <div class="video-wrap">
-          <video id="video" controls preload="metadata" playsinline></video>
-          <div id="clipBanner" class="clip-banner hidden">
-            <div><span class="star">★</span> <b id="clipTitle"></b> <span id="clipRemain" class="muted"></span></div>
-            <button class="btn small ghost" id="clipKeep">Keep watching past this</button>
+          <video id="video" controls controlslist="nofullscreen" preload="metadata" playsinline></video>
+          <div class="video-bar">
+            <div id="clipBanner" class="clip-info hidden"><span class="star">★</span> <b id="clipTitle"></b> <span id="clipRemain" class="muted"></span></div>
+            <div class="bar-btns">
+              <button class="btn small ghost hidden" id="clipKeep">Keep watching past this</button>
+              <button class="btn small ghost" id="fsBtn" title="Fullscreen (F)">⛶ Fullscreen</button>
+            </div>
           </div>
           <div id="clipDone" class="clip-done hidden">
             <h3>That's the end of this part.</h3>

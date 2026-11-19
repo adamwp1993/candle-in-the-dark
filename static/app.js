@@ -284,10 +284,26 @@ function renderSegs() {
 function updateClipBanner() {
   const c = S.clip;
   $("#clipBanner").classList.toggle("hidden", !c);
+  $("#clipKeep").classList.toggle("hidden", !c);
   if (!c) return;
   $("#clipTitle").textContent = c.title;
   $("#clipRemain").textContent = `· ${fmt(Math.max(0, c.end - video.currentTime))} left`;
 }
+// Fullscreen the whole player box (video + section bar + end-of-section screen), not just the
+// bare video. iPhones can only fullscreen a <video> itself, so fall back to that there.
+const wrap = $(".video-wrap");
+const fsEl = () => document.fullscreenElement || document.webkitFullscreenElement;
+function toggleFullscreen() {
+  if (fsEl()) return (document.exitFullscreen || document.webkitExitFullscreen).call(document);
+  if (wrap.requestFullscreen) wrap.requestFullscreen().catch(() => {});
+  else if (wrap.webkitRequestFullscreen) wrap.webkitRequestFullscreen();
+  else if (video.webkitEnterFullscreen) video.webkitEnterFullscreen();
+}
+function syncFsBtn() { $("#fsBtn").textContent = fsEl() ? "✕ Exit fullscreen" : "⛶ Fullscreen"; }
+$("#fsBtn").onclick = toggleFullscreen;
+video.addEventListener("dblclick", toggleFullscreen);
+document.addEventListener("fullscreenchange", syncFsBtn);
+document.addEventListener("webkitfullscreenchange", syncFsBtn);
 $("#clipKeep").onclick = () => { S.clip = null; updateClipBanner(); };
 $("#clipReplay").onclick = () => { const c = S.lastClip; $("#clipDone").classList.add("hidden"); S.clip = c; video.currentTime = c.start; video.play(); updateClipBanner(); };
 $("#clipNext").onclick = () => {
@@ -434,6 +450,7 @@ document.addEventListener("keydown", (e) => {
   if (!$("#view-player").classList.contains("active") || e.target.matches("textarea, input")) return;
   if (e.key === "n" || e.key === "N") { e.preventDefault(); video.pause(); $("#noteText").focus(); }
   else if (e.key === " ") { e.preventDefault(); video.paused ? video.play() : video.pause(); }
+  else if (e.key === "f" || e.key === "F") { e.preventDefault(); toggleFullscreen(); }
   else if (e.key === "ArrowRight") video.currentTime += 10;
   else if (e.key === "ArrowLeft") video.currentTime -= 10;
 });
